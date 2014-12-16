@@ -19,15 +19,16 @@ var metalsmith = new Metalsmith(__dirname)
   }));
 ```
 
-Given an input directory of `src`, this will transform a directory structure that looks like this:
+This will transform a directory structure that looks like this:
 
 ```
-src/
-	my-dir/
-		one.html
-		two.html
-	my-other-dir/
+my-dir/
+	one.html
+	two.html
+	nested/
 		three.html
+my-other-dir/
+	four.html
 ```
 
 to a flat output directory:
@@ -35,5 +36,6 @@ to a flat output directory:
 ```
 my-optional-prefix-my-dir-one.html
 my-optional-prefix-my-dir-two.html
-my-optional-prefix-my-other-dir-three.html
+my-optional-prefix-my-dir-nested-three.html
+my-optional-prefix-my-other-dir-four.html
 ```
