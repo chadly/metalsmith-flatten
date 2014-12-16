@@ -2,7 +2,7 @@
   "name": "metalsmith-flatten",
   "description": "A metalsmith plugin to flatten a directory hierarchy.",
   "repository": "git://github.com/chadly/metalsmith-flatten.git",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js"
 }
