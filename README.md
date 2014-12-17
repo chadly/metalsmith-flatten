@@ -99,4 +99,4 @@ var metalsmith = new Metalsmith(__dirname)
 
 ### Skipping Flattening for a File
 
-A will be ignored by the plugin if you set the `skipFlatten` option in the yaml metadata of a file to true.
+A file will be ignored by the plugin if you set the `skipFlatten` option in the yaml metadata of a file to true.
